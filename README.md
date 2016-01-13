@@ -13,7 +13,7 @@ to write HTML (with some special tags for things in the OpenMRS model)
 and the module will automatically "just know" what to do when the user
 clicks the submit button.
 
-Currently, a form submission creates one encounter for one patient.
+Currently, a form submission creates one encounter per patient.
 
 
 Requirements
@@ -25,10 +25,10 @@ Download
 ----------
 
 Make sure that you have installed OpenMRS 1.6.3+, OpenMRS 1.7.2+, OpenMRS 1.8+, or OpenMRS 1.9+<br>
-If you are using OpenMRS 1.9+ you should also install the [htmlformentry19ext module][].
+If you are using OpenMRS 1.9+, you should also install the [htmlformentry19ext module][].
 
 + [Download the Htmlformentry module][]
-+ If you're using OpenMRS 1.9+, ALSO get the [htmlformentry19ext module][].
++ If you're using OpenMRS 1.9+, also get the [htmlformentry19ext module][].
 + Source code: [View/download source code for htmlformentry19ext][] from Github, [View/download source code for htmlformentry][] from Github
 
 
@@ -39,7 +39,7 @@ Instructions
 + Go to "Manage HTML Forms" under the administration page.
 + Create a new form there (click "New HTML Form").
 + Fill out the necessary information; including the Name, Description, Version, and select the Encounter Type from the list.  (When an HTML form is submitted, it will create this type of encounter.)
-+ Save the form.  Then it will open the page for editing the HTML Form.
++ Save the form.  Then it will open another page for editing the HTML Form.
 + Customize the HTML form to your specifications. Recent versions of the HTML Form Entry Module include a basic form that can be customized. For additional documentation on the avaliable HTML tags see the [HTML Reference][].
 
 
